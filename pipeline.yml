@@ -21,7 +21,7 @@ stages:
      vmImage: 'ubuntu-latest'
     steps:
     - task: ACRTaskV0@0
-      displayName: 'baseimagetask'
+      displayName: 'scenario2baseimagetask'
       inputs:
         azureSubscription: 'anshenoDev'
         azureContainerRegistry: 'anshenormdev'
